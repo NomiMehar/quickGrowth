@@ -32,7 +32,7 @@ function CopywritingProject() {
                         <span> project started!</span></h2>
                         <p>Quick Growth provides comprehensive services to help businesses innovate, expand, and thrive in competitive markets</p>
                         <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-                            <Link to="/" className="btn-custom">Let's Talk</Link>
+                            <Link to="/contact-us" className="btn-custom">Let's Talk</Link>
                         </div>
                     </div>
                     <div className='copywritingLine' data-aos="fade-up" data-aos-duration="1000">

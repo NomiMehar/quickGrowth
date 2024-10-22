@@ -17,7 +17,7 @@ function DesignedAndDeveloped() {
                 </div>
                 <img data-aos="fade-up" data-aos-duration="1000" src="/images/services/designedAndDeveloped.svg" alt="designedAndDeveloped" />
                 <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-                    <Link to="/" className="btn-custom">View More Designs</Link>
+                    <Link to="/" className="btn-custom">Let's Talk Designs</Link>
                 </div>
             </div>
         </div>

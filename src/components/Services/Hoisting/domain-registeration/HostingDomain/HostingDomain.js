@@ -17,7 +17,7 @@ export default function HostingDomain() {
                     <p className="tagline">About Quick Growth</p>
                     <h2>Best Hosting & Domain for Your <span>Business</span></h2>
                     <p>High performance secured hosting for your website. Don't lose anymore clients for the slowest speed of your hosting service. Get hosting package now!</p>
-                    <Link to="/" className="btn-custom">Get Started</Link>
+                    <Link to="/contact-us" className="btn-custom">Get Started</Link>
                 </div>
                 </div>
                 <div className="col-lg-5 col-md-12">

@@ -81,7 +81,7 @@ const RecentWorks = () => {
                         </Swiper>
             </div>
             <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-               <Link to="/" className="btn-custom">View More</Link>
+               <Link to="/contact-us" className="btn-custom">Let's Talk</Link>
                </div>
         </div>
     </React.Fragment>
