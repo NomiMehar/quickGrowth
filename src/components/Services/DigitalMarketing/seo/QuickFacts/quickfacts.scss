@@ -1,0 +1,46 @@
+.strategic{
+    padding: 100px 0 80px;
+    
+    @media screen and (max-width:550px) {
+        padding: 50px 0;
+        
+    }
+
+    .content{
+        text-align: center;
+        h2{
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 60px;
+
+            @media screen and (max-width:993px) {
+                font-size: 48px;
+            }
+            @media screen and (max-width:500px) {
+                font-size: 28px;
+            }
+
+            span{
+                color: #DCA629;
+            }
+        }
+        p{
+            color: #ffffff8e;
+            padding: 25px 0;
+            line-height: 28px;
+            // max-width: 800px;
+            // margin: 0 auto;
+        }
+        .theme-btn{
+            border-radius: 30px;
+            padding: 8px 18px;
+            border: none;
+            outline: none;
+            text-transform: uppercase;
+            border: 2px solid rgba(255, 255, 255, 0.548);
+            color: #ffffffce;
+            background-color: transparent;
+        }
+    }
+}
+
