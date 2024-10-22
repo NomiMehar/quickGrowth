@@ -1,6 +1,6 @@
-.copywritingServices{
+.SmmPlatforms{
     padding: 150px 0;
-    background: #0B0B0B;
+    background: #222222;
     position: relative;
     overflow: hidden;
     z-index: 0;
@@ -9,10 +9,14 @@
         position: absolute;
         left: 50%;
         top: 50%;
-        display: none;
-        height: 0.01px;
-        width: 0.94px;
-        z-index: -81;
+        transform: translate(-50%, -50%);
+        width: 2168.94px;
+        height: 100%;
+        background: url(../../../../../../public/images/services/ecommerceFeatures.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
     }
     @media screen and (max-width: 992px){
         padding: 100px 0;
@@ -27,12 +31,12 @@
           font-size: 60px;
           font-weight: 700;
           color:#fff;
-          margin-bottom: 30px;
+          margin-bottom: 50px;
           @media (max-width: 992px) {
             font-size: 44px;
           }
           span{
-            color: rgba(220, 166, 41, 1);
+            color: #DDA72A;
           }
         }
         p{
@@ -45,28 +49,24 @@
             }
         }
       }
-      .copywritingServices__card{
-        background: #222222;
+      .SmmPlatforms__card{
+        background: #121212;
         border-radius: 30px;
-        padding: 20px;
+        padding: 30px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-        text-align: center;
         width: 100%;
-        min-height: 300px;
+        min-height: 420px;
         position: relative;
-        margin-top: 100px;
-        min-height: 360px;
         img{
-            width: 140px;
-            height: 140px;
-            margin-top: -100px;
+            width: 100px;
+            height: 100px;
             margin-bottom: 20px;
         }
         h3{
             font-size: 24px;
             font-weight: 700;
             color: #fff;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         p{
             font-size: 18px;
