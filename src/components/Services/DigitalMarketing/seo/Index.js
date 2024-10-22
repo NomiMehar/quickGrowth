@@ -6,8 +6,10 @@ import QuickFacts from './QuickFacts/Quickfacts'
 import Achievements from '../../../AboutUs/Achievements/Achievements'
 import Services from './Services/Services'
 import Benefits from './benefits/Benefits'
-// import RecentWorks from './recentWorks/RecentWorks'
-// import FAQ from '../../../Portfolio/Faqs/Faqs'
+import RecentWorks from './recentWorks/RecentWorks'
+import Platform from './platforms/Platforms'
+import WhyChoose from './why-quick-growth/WhyChoose'
+import FAQ from '../../../Portfolio/Faqs/Faqs'
 
 const Index = () => {
   return (
@@ -19,8 +21,10 @@ const Index = () => {
         <Achievements />
         <Services />
         <Benefits />
-        {/* <RecentWorks />
-        <FAQ /> */}
+        <RecentWorks />
+        <Platform />
+        <WhyChoose />
+        <FAQ />
         <Footer />
 
     </React.Fragment>

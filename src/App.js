@@ -12,6 +12,7 @@ import Copywriting from "./components/Services/Web/copywriting/Index";
 import BrandingAgency from "./components/Services/Branding/branding-agency/Index";
 import Hoisting from "./components/Services/Hoisting/domain-registeration/Index";
 import SEO from './components/Services/DigitalMarketing/seo/Index';
+import SMM from './components/Services/DigitalMarketing/smm/Index';
 import Faqs from './components/Faqs/Index';
 
 const Home = lazy(() => import("./components/home/Home"));
@@ -35,6 +36,7 @@ const Config = () => {
           <Route path="/services/branding/branding-agency" element={<BrandingAgency />}></Route>
           <Route path="/services/hosting/domain-registeration" element={<Hoisting />}></Route>
           <Route path="/services/digital-marketing/seo" element={<SEO />}></Route>
+          <Route path="/services/digital-marketing/smm" element={<SMM />}></Route>
         </Routes>
       </Suspense>
     </Router>

@@ -59,7 +59,7 @@ function CopywritingServices() {
                             ))}
                         </div>
                         <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-                            <Link to="/contact-us" className="btn-custom">Get Started</Link>
+                            <Link to="/" className="btn-custom">Get Started</Link>
                         </div>
                     </div>
                 </div>

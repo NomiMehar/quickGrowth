@@ -13,8 +13,11 @@
             font-weight: 700;
             font-size: 60px;
 
-            @media screen and (max-width:993px) {
+            @media screen and (max-width:1193px) {
                 font-size: 48px;
+            }
+            @media screen and (max-width:993px) {
+                font-size: 42px;
             }
             @media screen and (max-width:500px) {
                 font-size: 28px;
@@ -25,22 +28,14 @@
             }
         }
         p{
-            color: #ffffff8e;
             padding: 25px 0;
-            line-height: 28px;
-            // max-width: 800px;
-            // margin: 0 auto;
+            line-height: 34px;
+            font-size: 22px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 0;
+            
         }
-        .theme-btn{
-            border-radius: 30px;
-            padding: 8px 18px;
-            border: none;
-            outline: none;
-            text-transform: uppercase;
-            border: 2px solid rgba(255, 255, 255, 0.548);
-            color: #ffffffce;
-            background-color: transparent;
-        }
+        
     }
 }
 

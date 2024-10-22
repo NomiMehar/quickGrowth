@@ -47,7 +47,7 @@ const Services = () => {
 
                             {slideData.map((item, index) => (
                                 <div className={index < 2 ? "col-md-6" : "col-md-4"} key={index}>
-                                    <div className="copywritingServices__card">
+                                    <div className="seoServices__card">
                                         <img src={item.imageSrc} alt="Ecommerce Features" />
                                         <h3>{item.title}</h3>
                                         <p>{item.description}</p>
@@ -57,7 +57,7 @@ const Services = () => {
 
                         </div>
                         <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-                            <Link to="/contact-us" className="btn-custom">Get Started</Link>
+                            <Link to="/" className="btn-custom">Get Started</Link>
                         </div>
                     </div>
                 </div>
