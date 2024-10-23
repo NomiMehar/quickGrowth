@@ -9,7 +9,7 @@ function Faqs() {
     }, []);
     return (
         <React.Fragment>
-            <div className="faqs" id="faqs">
+            <div className="faqsSection" id="faqs">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12" data-aos="fade-up" data-aos-duration="1000">
@@ -58,7 +58,7 @@ function Faqs() {
                             </Accordion>
                         </div>
                         <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-                        <Link to="/" className="btn-custom">BOOK A CALL</Link>
+                        <Link to="/contact-us" className="btn-custom">BOOK A CALL</Link>
                         </div>
                     </div>
                 </div>
