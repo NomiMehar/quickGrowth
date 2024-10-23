@@ -29,7 +29,7 @@ const menuData = [
       {
         label: "Software",
         subMenu: [
-          { label: "Mobile Applications", href: "/services/software/mobile-applications" },
+          { label: "Mobile Applications", href: "/services/software" },
           { label: "Web Applications", href: "/services/software/web-applications" },
           { label: "API & System Integration", href: "/services/software/api-system-integration" },
           { label: "SaaS Solution", href: "/services/software/saas-solution" },
@@ -40,7 +40,7 @@ const menuData = [
       {
         label: "Digital Marketing",
         subMenu: [
-          { label: "Search Engine Optimization", href: "/services/digital-marketing/seo" },
+          { label: "Search Engine Optimization", href: "/services/digital-marketing" },
           { label: "Social Media Marketing", href: "/services/digital-marketing/smm" },
           { label: "Google Ads or PPC Marketing", href: "/services/digital-marketing/google-adds" },
           { label: "Online Reputation Management", href: "/services/digital-marketing/online-reputation" },
@@ -49,16 +49,16 @@ const menuData = [
       {
         label: "Branding",
         subMenu: [
-          { label: "Brand Identity", href: "/services/branding/branding-agency" },
-          { label: "Logo Design", href: "/services/branding/logo-design" },
-          { label: "Printing Materials", href: "/services/branding/printing-material" },
-          { label: "Brand Launch", href: "/services/branding/brand-launch" },
+          { label: "Brand Identity", href: "/services/branding" },
+          { label: "Logo Design", href: "/services/branding" },
+          { label: "Printing Materials", href: "/services/branding" },
+          { label: "Brand Launch", href: "/services/branding" },
         ],
       },
       {
         label: "Hosting",
         subMenu: [
-          { label: "Domain Registration", href: "/services/hosting/domain-registeration" },
+          { label: "Domain Registration", href: "/services/hosting" },
           { label: "Website Hosting", href: "/services/hosting/web-hosting" },
           { label: "Email Hosting", href: "/services/hosting/email-hosting" },
           { label: "Security & SSL", href: "/services/hosting/security-ssl" },

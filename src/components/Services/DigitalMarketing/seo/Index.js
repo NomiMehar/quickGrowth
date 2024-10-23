@@ -4,7 +4,7 @@ import Footer from '../../../Footer/Footer'
 import SeoBanner from './SeoBanner/SeoBanner'
 import QuickFacts from './QuickFacts/Quickfacts'
 import Achievements from '../../../AboutUs/Achievements/Achievements'
-import Services from './Services/Services'
+import SeoServices from './SeoServices/SeoServices'
 import Benefits from './benefits/Benefits'
 import RecentWorks from './recentWorks/RecentWorks'
 import Platform from './platforms/Platforms'
@@ -19,7 +19,7 @@ const Index = () => {
         <SeoBanner />
         <QuickFacts />
         <Achievements />
-        <Services />
+        <SeoServices />
         <Benefits />
         <RecentWorks />
         <Platform />

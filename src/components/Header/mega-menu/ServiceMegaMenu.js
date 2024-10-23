@@ -48,7 +48,7 @@ const serviceItems = [
         title: "Software",
         icon: "/images/services/software.svg",
         items: [
-          { name: "Mobile Applications", link: "/services/software/mobile-applications", img: "/images/services/s1.svg" },
+          { name: "Mobile Applications", link: "/services/software", img: "/images/services/s1.svg" },
           { name: "Web Applications", link: "/services/software/web-applications", img: "/images/services/s2.svg" },
           { name: "API & System Integration", link: "/services/software/api-system-integration", img: "/images/services/s3.svg" },
           { name: "SaaS Solution", link: "/services/software/saas-solution", img: "/images/services/s4.svg" },
@@ -67,7 +67,7 @@ const serviceItems = [
         title: "Digital Marketing",
         icon: "/images/services/dm.svg",
         items: [
-          { name: "Search Engine Optimization", link: "/services/digital-marketing/seo", img: "/images/services/d1.svg" },
+          { name: "Search Engine Optimization", link: "/services/digital-marketing", img: "/images/services/d1.svg" },
           { name: "Social Media Marketing", link: "/services/digital-marketing/smm", img: "/images/services/d2.svg" },
           { name: "Google Ads or PPC Marketing", link: "/services/digital-marketing/google-adds", img: "/images/services/d3.svg" },
           { name: "Online Reputation Management", link: "/services/digital-marketing/online-reputation", img: "/images/services/d4.svg" },
@@ -84,10 +84,10 @@ const serviceItems = [
         title: "Branding",
         icon: "/images/services/branding.svg",
         items: [
-          { name: "Brand identity", link: "/services/branding/branding-agency", img: "/images/services/b1.svg" },
-          { name: "Logo Design", link: "/services/branding/logo-design", img: "/images/services/b2.svg" },
-          { name: "Printing Materials", link: "/services/branding/printing-material", img: "/images/services/b3.svg" },
-          { name: "Brand Launch", link: "/services/branding/brand-launch", img: "/images/services/b4.svg" },
+          { name: "Brand identity", link: "/services/branding", img: "/images/services/b1.svg" },
+          { name: "Logo Design", link: "/services/branding", img: "/images/services/b2.svg" },
+          { name: "Printing Materials", link: "/services/branding", img: "/images/services/b3.svg" },
+          { name: "Brand Launch", link: "/services/branding", img: "/images/services/b4.svg" },
         ],
       },
     ],
@@ -101,7 +101,7 @@ const serviceItems = [
         title: "Hosting",
         icon: "/images/services/hosting.svg",
         items: [
-          { name: "Domain Registration", link: "/services/hosting/domain-registeration", img: "/images/services/h1.svg" },
+          { name: "Domain Registration", link: "/services/hosting", img: "/images/services/h1.svg" },
           { name: "Website Hosting", link: "/services/hosting/web-hosting", img: "/images/services/h2.svg" },
           { name: "Email Hosting", link: "/services/hosting/email-hosting", img: "/images/services/h3.svg" },
           { name: "Security & SSL", link: "/services/hosting/security-ssl", img: "/images/services/h4.svg" },

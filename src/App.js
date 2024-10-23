@@ -9,10 +9,11 @@ import WebsiteDesignDevelopment from "./components/Services/Web/website-design-d
 import EcommerceDevelopment from "./components/Services/Web/ecommerce-development/Index";
 import WebMaintenance from "./components/Services/Web/website-maintenance/Index";
 import Copywriting from "./components/Services/Web/copywriting/Index";
-import BrandingAgency from "./components/Services/Branding/branding-agency/Index";
-import Hoisting from "./components/Services/Hoisting/domain-registeration/Index";
+import BrandingAgency from "./components/Services/Branding/Index";
+import Hoisting from "./components/Services/Hoisting/Index";
 import SEO from './components/Services/DigitalMarketing/seo/Index';
 import SMM from './components/Services/DigitalMarketing/smm/Index';
+import MobileApplications from "./components/Services/Software/MobileApplications/Index";
 import Faqs from './components/Faqs/Index';
 
 const Home = lazy(() => import("./components/home/Home"));
@@ -33,10 +34,11 @@ const Config = () => {
           <Route path="/services/web/ecommerce-development" element={<EcommerceDevelopment />}></Route>
           <Route path="/services/web/website-maintenance" element={<WebMaintenance />}></Route>
           <Route path="/services/web/copywriting" element={<Copywriting />}></Route>
-          <Route path="/services/branding/branding-agency" element={<BrandingAgency />}></Route>
-          <Route path="/services/hosting/domain-registeration" element={<Hoisting />}></Route>
-          <Route path="/services/digital-marketing/seo" element={<SEO />}></Route>
+          <Route path="/services/branding" element={<BrandingAgency />}></Route>
+          <Route path="/services/hosting" element={<Hoisting />}></Route>
+          <Route path="/services/digital-marketing" element={<SEO />}></Route>
           <Route path="/services/digital-marketing/smm" element={<SMM />}></Route>
+          <Route path="/services/software" element={<MobileApplications />}></Route>
         </Routes>
       </Suspense>
     </Router>

@@ -165,7 +165,7 @@ function RequestQuote() {
                                 {errors.services && <div className="error">{errors.services}</div>} {/* Display service error */}
                                 <p className='or' data-aos="fade-up" data-aos-duration="1000">OR</p>
                                 <p className='schedule' data-aos="fade-up" data-aos-duration="1000">
-                                    <Link to="/">Let's Schedule a call with Us</Link>
+                                    <Link href="/">Let's Schedule a call with Us</Link>
                                 </p>
                             </div>
 
