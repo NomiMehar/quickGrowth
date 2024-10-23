@@ -70,7 +70,7 @@ const HowToMarket = () => {
                                 <li><img src="/images/services/hostingCheck.svg" alt="check" /> Optimize your social media campaigns based on analytics</li>
                             </ul>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 Donts">
                             <img src="/images/services/donts.svg" />
                             <ul>
                                 <li><img src="/images/services/hostingCheck.svg" alt="check" /> Work without a social media marketing plan</li>

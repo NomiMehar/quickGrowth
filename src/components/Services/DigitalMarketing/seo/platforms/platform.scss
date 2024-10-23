@@ -62,7 +62,7 @@
             height: 130px;
             background-color: #0b0b0b;
             position: absolute;
-            bottom: 0px;
+            bottom: -1px;
             right: -1px;
             clip-path: polygon(100% 0, 100% 150%, 0% 100%);
         }
@@ -85,7 +85,7 @@
                 height: 80px;
                 background-color: #222222;
                 position: absolute;
-                bottom: 0px;
+                bottom: -1px;
                 right: -1px;
                 clip-path: polygon(100% 0, 100% 150%, 0% 100%);
             }
@@ -102,9 +102,9 @@
             }
             h3{
                 font-size: 24px;
+                padding-right: 25px;
                 font-weight: 700;
                 color: #521212;
-                margin-bottom: 10px;
             }
         }
         p{
