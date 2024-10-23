@@ -47,7 +47,7 @@ function RequestQuote() {
                                 </div>
                                 <p className='or' data-aos="fade-up" data-aos-duration="1000">OR</p>
                                 <p className='schedule' data-aos="fade-up" data-aos-duration="1000">
-                                    <Link href="/">Let's Schedule a call with Us</Link>
+                                    <Link to="/contact-us">Let's Schedule a call with Us</Link>
                                 </p>
                             </div>
 

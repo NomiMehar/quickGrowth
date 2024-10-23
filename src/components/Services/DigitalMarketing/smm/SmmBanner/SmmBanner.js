@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import './SmmBanner.scss'
 import { Link } from 'react-router-dom'
@@ -25,7 +25,7 @@ const SmmBanner = () => {
                         <p data-aos="fade-left" data-aos-duration="1000">
                         <Link to="/" className='home'>Home</Link>
                         <span>/</span>
-                        <Link to="/services/branding/branding-agency" className='page'>Soacial Media Marketing</Link>
+                        <Link to="/services/digital-marketing/smm" className='page'>Soacial Media Marketing</Link>
                         </p>
                     </div>
                 </div>

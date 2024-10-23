@@ -7,7 +7,7 @@ import SmmBenefits from './SmmBenefits/SmmBenefits'
 import SmmWcu from './SmmWCU/SmmWcu'
 import SmmPlatforms from './SmmPlatforms/SmmPlatforms'
 import HowToMarket from './How-to-Market/HowToMarket'
-import AwesomeProjects from './AwesomeProjects/AwesomeProjects'
+import LatestProjects from '../../../Portfolio/LatestProject/LatestProject'
 import FAQ from '../../../Portfolio/Faqs/Faqs'
 
 const Index = () => {
@@ -19,7 +19,7 @@ const Index = () => {
         <SmmBenefits />
         <SmmWcu />
         <HowToMarket />
-        <AwesomeProjects />
+        <LatestProjects />
         <SmmPlatforms />
         <FAQ />
         <Footer />

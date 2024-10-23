@@ -9,12 +9,12 @@ const HowToMarket = () => {
     return (
         <div className="howMarket">
             <div className="container">
-                <div className="title">
+                <div className="title" data-aos="fade-up" data-aos-duration="1000">
                     <h2>How to Market on  <span> Social Media</span></h2>
                 </div>
                 <div className="row align-items-center">
 
-                    <div className="col-md-7 col-lg-6">
+                    <div className="col-md-7 col-lg-6" data-aos="fade-right" data-aos-duration="1000">
                         <div className="title">
                             <p>
                                 Are you struggling to get the best results from your social
@@ -43,7 +43,7 @@ const HowToMarket = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-5 col-lg-6">
+                    <div className="col-md-5 col-lg-6" data-aos="fade-left" data-aos-duration="1000">
                         <div className="block">
                             <img src="/images/services/how-to-market.svg" alt="mainImg" />
                         </div>
