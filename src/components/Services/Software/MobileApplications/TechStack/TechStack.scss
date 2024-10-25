@@ -6,16 +6,16 @@
 
     &::before{
         content: '';
-        // background-image: url(../../../../../../public/images/services/after.svg);
+        background-image: url(../../../../../../public/images/services/section-bg-before.svg);
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        background-size: cover;
+        background-position: right;
         width: 100%;
         height: 100%;
         position: absolute;
         bottom: 0px;
         z-index: 0;
-        transform: translateY(300px);
+        transform: translateY(30px);
         
         @media only screen and (max-width:1600px){
             transform: translateY(200px);
@@ -70,12 +70,23 @@
         align-items: center;
         border-bottom: 2px solid rgba(255, 255, 255, 0.534);
         padding-bottom: 20px;
+        @media only screen and (max-width:994px){
+            flex-direction: column;
+            align-items: flex-start;
+            grid-gap: 10px;
+        }
         p{
             padding-left: 3px;
             margin-bottom: 0;
             font-size: 22px;
             font-weight: 550;
             min-width: 320px;
+            @media only screen and (max-width:994px){
+                min-width: 100%;
+            }
+        }
+        .d-flex{
+            flex-wrap: wrap;
         }
     }
     .btn-center{

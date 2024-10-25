@@ -14,6 +14,9 @@ import Hoisting from "./components/Services/Hoisting/Index";
 import SEO from './components/Services/DigitalMarketing/seo/Index';
 import SMM from './components/Services/DigitalMarketing/smm/Index';
 import MobileApplications from "./components/Services/Software/MobileApplications/Index";
+import WebApplications from "./components/Services/Software/WebApplications/Index";
+import SaasSolutions from "./components/Services/Software/SaasSolutions/Index";
+import MvpSolutions from "./components/Services/Software/MvpSolutions/Index";
 import Faqs from './components/Faqs/Index';
 
 const Home = lazy(() => import("./components/home/Home"));
@@ -39,6 +42,9 @@ const Config = () => {
           <Route path="/services/digital-marketing" element={<SEO />}></Route>
           <Route path="/services/digital-marketing/smm" element={<SMM />}></Route>
           <Route path="/services/software" element={<MobileApplications />}></Route>
+          <Route path="/services/software/web-applications" element={<WebApplications />}></Route>
+          <Route path="/services/software/saas-solution" element={<SaasSolutions />}></Route>
+          <Route path="/services/software/mvp-solution" element={<MvpSolutions />}></Route>
         </Routes>
       </Suspense>
     </Router>

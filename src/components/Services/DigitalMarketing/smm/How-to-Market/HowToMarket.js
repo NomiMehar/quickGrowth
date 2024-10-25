@@ -53,7 +53,7 @@ const HowToMarket = () => {
                 <div className="dosDonts">
                 <div className="row">
                     <div className="col-lg-6">
-                            <img src="/images/services/dos.svg" />
+                            <img src="/images/services/dos.svg" alt="do's" />
                             <ul>
                                 <li><img src="/images/services/hostingCheck.svg" alt="check" /> Conduct extensive market research</li>
                                 <li><img src="/images/services/hostingCheck.svg" alt="check" /> Identify the appropriate social media marketing platforms</li>
@@ -71,7 +71,7 @@ const HowToMarket = () => {
                             </ul>
                     </div>
                     <div className="col-lg-6 Donts">
-                            <img src="/images/services/donts.svg" />
+                            <img src="/images/services/donts.svg" alt="dont's" />
                             <ul>
                                 <li><img src="/images/services/hostingCheck.svg" alt="check" /> Work without a social media marketing plan</li>
                                 <li><img src="/images/services/hostingCheck.svg" alt="check" /> Copy competitors’ social media marketing ideas that do not

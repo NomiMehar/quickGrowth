@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './AppRecentProjects.scss';
 import { Link } from 'react-router-dom';
 
 const AppRecentProjects = () => {
-    const [activeTab, setActiveTab] = useState('All');
 
     const projects = [
       {

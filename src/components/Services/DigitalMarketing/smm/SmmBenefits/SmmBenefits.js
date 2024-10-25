@@ -48,7 +48,7 @@ const SmmBenefits = () => {
             <div className="row">
 
                 {slideData.map((item, index) => (
-                    <div className="col-md-6 col-md-4" key={index}>
+                    <div className="col-lg-4 col-sm-6" key={index}>
                         <div className="seoServices__card">
                             <img src={item.imageSrc} alt="Ecommerce Features" />
                             <h3>{item.title}</h3>
@@ -59,7 +59,7 @@ const SmmBenefits = () => {
 
             </div>
             <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-                <Link to="/" className="btn-custom">Let's Talk</Link>
+                <Link to="/contact-us" className="btn-custom">Let's Talk</Link>
             </div>
             </div>
         </div>

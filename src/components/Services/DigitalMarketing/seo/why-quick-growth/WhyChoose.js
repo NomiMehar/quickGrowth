@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import './whyChoose.scss'
 import AOS from 'aos';
-import { Link } from 'react-router-dom';
 
 const WhyChoose = () => {
     useEffect(() => {

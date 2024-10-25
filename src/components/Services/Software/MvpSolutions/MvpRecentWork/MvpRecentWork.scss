@@ -1,0 +1,52 @@
+.MvpRecentWork{
+    padding: 80px 0;
+    overflow: hidden;
+    position: relative;
+
+    @media screen and (max-width: 768px){
+      padding: 50px 0;
+    }
+    .title{
+        text-align: center;
+        margin:0 auto 70px;
+        max-width: 1000px;
+        @media screen and (max-width: 992px){
+            margin-bottom: 50px;
+        }
+        h2{
+            font-size: 60px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 10px;
+            @media screen and (max-width: 992px){
+                font-size: 44px;
+            }
+            span{
+                color: #DDA72A;
+            }
+        }
+        p{
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 5px;
+            @media screen and (max-width: 992px){
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+    }
+    .mySwipper{
+        img{
+            width: 100%;
+            height: auto;
+        }
+        
+    }
+    .btn-center{
+        text-align: center;
+        margin-top: 120px;
+        @media screen and (max-width: 768px){
+            margin-top: 60px;
+        }
+    }
+}

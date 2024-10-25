@@ -1,0 +1,82 @@
+.SaasBenefits{
+    padding: 150px 0;
+    background: #0B0B0B;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    &::after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        display: none;
+        height: 0.01px;
+        width: 0.94px;
+        z-index: -81;
+    }
+    @media screen and (max-width: 992px){
+        padding: 100px 0;
+    }
+    @media screen and (max-width: 767px){
+        padding: 80px 0;
+    }
+    .title {
+        text-align: center;
+    
+        h2{
+          font-size: 60px;
+          font-weight: 700;
+          color:#fff;
+          margin-bottom: 30px;
+          @media (max-width: 992px) {
+            font-size: 44px;
+          }
+          span{
+            color: rgba(220, 166, 41, 1);
+          }
+        }
+        p{
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 5px;
+            @media screen and (max-width: 992px){
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+      }
+      .copywritingServices__card{
+        background: #222222;
+        border-radius: 30px;
+        padding: 20px 20px 50px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 100%;
+        position: relative;
+        margin-top: 100px;
+        img{
+            width: 140px;
+            height: 140px;
+            margin-top: -100px;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 0;
+        }
+    }
+    .btn-center{
+        text-align: center;
+        margin-top: 80px;
+        @media screen and (max-width: 768px){
+            margin-top: 40px;
+        }
+    }
+}

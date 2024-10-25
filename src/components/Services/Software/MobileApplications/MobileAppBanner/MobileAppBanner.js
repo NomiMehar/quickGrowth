@@ -10,7 +10,7 @@ const MobileAppBanner = () => {
 
 return (
 <React.Fragment>
-     <div className="MobileAppBanner">
+            <div className="MobileAppBanner">
                 <div className="container">
                     <div className="row">
                         <div className="title" data-aos="fade-up" data-aos-duration="1000">
