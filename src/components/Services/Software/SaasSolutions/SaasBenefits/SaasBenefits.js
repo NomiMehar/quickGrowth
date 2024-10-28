@@ -60,7 +60,7 @@ function SaasBenefits() {
                             ))}
                         </div>
                         <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-                            <Link to="/" className="btn-custom">Get Started</Link>
+                            <Link to="/contact-us" className="btn-custom">LET'S TALK</Link>
                         </div>
                     </div>
                 </div>

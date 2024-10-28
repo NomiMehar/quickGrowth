@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './benefits.scss'
 import AOS from 'aos';
 import { Link } from 'react-router-dom';
-function CopywritingServices() {
+function Benefits() {
     useEffect(() => {
         AOS.init();
     }, []);
@@ -59,7 +59,7 @@ function CopywritingServices() {
                             ))}
                         </div>
                         <div className="btn-center" data-aos="fade-up" data-aos-duration="1000">
-                            <Link to="/" className="btn-custom">Get Started</Link>
+                            <Link to="/contact-us" className="btn-custom">LET'S TALK</Link>
                         </div>
                     </div>
                 </div>
@@ -68,4 +68,4 @@ function CopywritingServices() {
     )
 }
 
-export default CopywritingServices
+export default Benefits

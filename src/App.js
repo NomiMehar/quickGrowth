@@ -17,6 +17,9 @@ import MobileApplications from "./components/Services/Software/MobileApplication
 import WebApplications from "./components/Services/Software/WebApplications/Index";
 import SaasSolutions from "./components/Services/Software/SaasSolutions/Index";
 import MvpSolutions from "./components/Services/Software/MvpSolutions/Index";
+import AiChatbots from "./components/Services/Artificial-Intelligence/AI-Chatbots/Index";
+import SaasAiSolution from "./components/Services/Artificial-Intelligence/SaasAi/Index";
+import AiPocAiMvp from "./components/Services/Artificial-Intelligence/Ai-poc-Ai-mvp/Index";
 import Faqs from './components/Faqs/Index';
 
 const Home = lazy(() => import("./components/home/Home"));
@@ -45,6 +48,9 @@ const Config = () => {
           <Route path="/services/software/web-applications" element={<WebApplications />}></Route>
           <Route path="/services/software/saas-solution" element={<SaasSolutions />}></Route>
           <Route path="/services/software/mvp-solution" element={<MvpSolutions />}></Route>
+          <Route path="/services/artificial-intelligence" element={<AiChatbots />}></Route>
+          <Route path="/services/artificial-intelligence/saas-ai-solution" element={<SaasAiSolution />}></Route>
+          <Route path="/services/artificial-intelligence/ai-poc-ai-mvp" element={<AiPocAiMvp />}></Route>
         </Routes>
       </Suspense>
     </Router>

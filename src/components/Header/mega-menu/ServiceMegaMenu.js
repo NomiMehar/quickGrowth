@@ -13,7 +13,7 @@ const serviceItems = [
         title: "Artificial Intelligence",
         icon: "/images/services/ai.svg",
         items: [
-          { name: "Custom Chatbot", link: "/services/artificial-intelligence/custom-chatbot", img: "/images/services/a1.svg" },
+          { name: "Custom Chatbot", link: "/services/artificial-intelligence", img: "/images/services/a1.svg" },
           { name: "AI Poc / AI MVP", link: "/services/artificial-intelligence/ai-poc-ai-mvp", img: "/images/services/a2.svg" },
           { name: "SaaS AI Solution", link: "/services/artificial-intelligence/saas-ai-solution", img: "/images/services/a3.svg" },
           { name: "Uee Case Chatbot Development", link: "/services/artificial-intelligence/chatbot-development", img: "/images/services/a4.svg" },

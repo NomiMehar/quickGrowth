@@ -3,7 +3,7 @@ import './MvpRecentWork.scss'
 import AOS from 'aos';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Autoplay } from 'swiper/modules';
+import { Autoplay,  Pagination } from 'swiper/modules';
 
 const MvpRecentWork = () => {
     useEffect(() => {
@@ -49,8 +49,10 @@ const MvpRecentWork = () => {
                             slidesPerView={2.5}
                             centeredSlides={true}
                             spaceBetween={20}
+                            pagination={true}
+                             Pagination={true}
                             speed={500}
-                            modules={[Autoplay]}
+                            modules={[Autoplay, Pagination]}
                             className="mySwipper"
                             breakpoints={{
                                 1400: {

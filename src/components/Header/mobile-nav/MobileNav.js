@@ -10,7 +10,7 @@ const menuData = [
       {
         label: "Artificial Intelligence",
         subMenu: [
-          { label: "Custom Chatbot", href: "/services/artificial-intelligence/custom-chatbot" },
+          { label: "Custom Chatbot", href: "/services/artificial-intelligence" },
           { label: "AI Poc / AI MVP", href: "/services/artificial-intelligence/ai-poc-ai-mvp" },
           { label: "SaaS AI Solution", href: "/services/artificial-intelligence/saas-ai-solution" },
           { label: "Use Case Chatbot Development", href: "/services/artificial-intelligence/chatbot-development" },
