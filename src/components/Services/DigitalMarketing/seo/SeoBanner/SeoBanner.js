@@ -25,7 +25,7 @@ const SeoBanner = () => {
                         <p data-aos="fade-left" data-aos-duration="1000">
                         <Link to="/" className='home'>Home</Link>
                         <span>/</span>
-                        <Link to="/services/digital-marketing" className='page'>Search Engine Optimization</Link>
+                        <Link to="/services/digital-marketing/seo" className='page'>Search Engine Optimization</Link>
                         </p>
                     </div>
                 </div>

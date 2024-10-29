@@ -17,7 +17,7 @@ function Index() {
         <ProjectSuccees />
         <AiRoadMap />
         <BussinessExpansion />
-        <WebRecent />
+        <WebRecent head2="Success Stories" spanText="In Spotlight" />
         <Faq />
         <Footer />
     </React.Fragment>

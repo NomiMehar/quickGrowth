@@ -19,7 +19,7 @@ const MobileApplications = () => {
       <QuickFacts />
       <MobileServices />
       <BusinessSolutions />
-      <TechStack />
+      <TechStack head2="Technology Stack We Use for" spanText="SaaS Solution Development"/>
       <AppRecentProjects />
       <Faq />
       <Footer />

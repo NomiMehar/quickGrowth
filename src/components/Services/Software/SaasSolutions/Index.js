@@ -21,7 +21,7 @@ const Index = () => {
         <Achievements />
         <SaasDevServices />
         <SaasIndustries />
-        <TechStack />
+        <TechStack head2="Technology Stack We Use for" spanText="Mobile App Development"/>
         <SaasBenefits />
         <SaasRecent />
         <SaasDevProcess />

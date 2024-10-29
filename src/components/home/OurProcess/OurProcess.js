@@ -72,7 +72,7 @@ function OurProcess() {
                             autoplay={true}
                             centeredSlides={true}
                             loop={true}
-                            slidesPerView={3.6}
+                            slidesPerView={3.7}
                             spaceBetween={-150}
                             watchOverflow={true}
                             coverflowEffect={{

@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Pagination,Autoplay,Navigation } from 'swiper/modules';
+import { Pagination, Autoplay, Navigation } from 'swiper/modules';
 import { Link } from 'react-router-dom';
 
-const WebRecentWork = () => {
+const WebRecentWork = (props) => {
     useEffect(() => {
         AOS.init();
     }, [])
@@ -51,22 +51,22 @@ const WebRecentWork = () => {
                 <div class="container">
                     <div class="row">
                         <div className="title" data-aos="fade-up" data-aos-duration="1000">
-                            <h2>Our Recent <span> Work</span></h2>
+                            <h2>{props.head2}<span> {props.spanText}</span></h2>
                         </div>
-                        
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000">
+                <div className="container">
+                    <div data-aos="fade-up" data-aos-duration="1000">
                         <Swiper
                             autoplay={true}
                             centeredSlides={false}
                             loop={true}
-                            slidesPerView={1.5}
+                            slidesPerView={1.4}
                             spaceBetween={10}
                             pagination={true}
                             navigation={true}
                             speed={500}
-                            modules={[Pagination,Autoplay,Navigation]}
+                            modules={[Pagination, Autoplay, Navigation]}
                             className="swiper_container"
                             breakpoints={{
                                 1400: {
@@ -83,26 +83,27 @@ const WebRecentWork = () => {
                                 },
                                 0: {
                                     slidesPerView: 1,
-                                    spaceBetween: 10,    
-                                    centeredSlides:false,    
-                            }
+                                    spaceBetween: 10,
+                                    centeredSlides: false,
+                                }
                             }}
                         >
                             {slideData.map((item, index) => (
                                 <SwiperSlide key={index} className="swiper-slide">
-                                        <div className="image-wrapper">
-                                            <img src={item.imageSrc} alt={item.title} />
-                                            <div className="slide-title">
-                                                 <h2>{item.title}</h2>
-                                                 <p>{item.para}</p>
-                                                 <Link to='/'>Read More</Link>
-                                            </div>
+                                    <div className="image-wrapper">
+                                        <img src={item.imageSrc} alt={item.title} />
+                                        <div className="slide-title">
+                                            <h2>{item.title}</h2>
+                                            <p>{item.para}</p>
+                                            <Link to='/'>Read More</Link>
+                                        </div>
                                     </div>
                                 </SwiperSlide>
                             ))}
                         </Swiper>
-                        </div>
-                        
+                    </div>
+                </div>
+
             </div>
         </React.Fragment>
     )

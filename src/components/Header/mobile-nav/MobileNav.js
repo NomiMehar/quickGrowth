@@ -10,7 +10,7 @@ const menuData = [
       {
         label: "Artificial Intelligence",
         subMenu: [
-          { label: "Custom Chatbot", href: "/services/artificial-intelligence" },
+          { label: "Custom Chatbot", href: "/services/artificial-intelligence/ai-chatbots" },
           { label: "AI Poc / AI MVP", href: "/services/artificial-intelligence/ai-poc-ai-mvp" },
           { label: "SaaS AI Solution", href: "/services/artificial-intelligence/saas-ai-solution" },
           { label: "Use Case Chatbot Development", href: "/services/artificial-intelligence/chatbot-development" },
@@ -29,7 +29,7 @@ const menuData = [
       {
         label: "Software",
         subMenu: [
-          { label: "Mobile Applications", href: "/services/software" },
+          { label: "Mobile Applications", href: "/services/software/mobile-applications" },
           { label: "Web Applications", href: "/services/software/web-applications" },
           { label: "API & System Integration", href: "/services/software/api-system-integration" },
           { label: "SaaS Solution", href: "/services/software/saas-solution" },
@@ -40,7 +40,7 @@ const menuData = [
       {
         label: "Digital Marketing",
         subMenu: [
-          { label: "Search Engine Optimization", href: "/services/digital-marketing" },
+          { label: "Search Engine Optimization", href: "/services/digital-marketing/seo" },
           { label: "Social Media Marketing", href: "/services/digital-marketing/smm" },
           { label: "Google Ads or PPC Marketing", href: "/services/digital-marketing/google-adds" },
           { label: "Online Reputation Management", href: "/services/digital-marketing/online-reputation" },
@@ -59,9 +59,9 @@ const menuData = [
         label: "Hosting",
         subMenu: [
           { label: "Domain Registration", href: "/services/hosting" },
-          { label: "Website Hosting", href: "/services/hosting/web-hosting" },
-          { label: "Email Hosting", href: "/services/hosting/email-hosting" },
-          { label: "Security & SSL", href: "/services/hosting/security-ssl" },
+          { label: "Website Hosting", href: "/services/hosting" },
+          { label: "Email Hosting", href: "/services/hosting" },
+          { label: "Security & SSL", href: "/services/hosting" },
         ],
       },
     ],

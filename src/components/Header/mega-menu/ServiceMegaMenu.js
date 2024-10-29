@@ -13,7 +13,7 @@ const serviceItems = [
         title: "Artificial Intelligence",
         icon: "/images/services/ai.svg",
         items: [
-          { name: "Custom Chatbot", link: "/services/artificial-intelligence", img: "/images/services/a1.svg" },
+          { name: "Custom Chatbot", link: "/services/artificial-intelligence/ai-chatbots", img: "/images/services/a1.svg" },
           { name: "AI Poc / AI MVP", link: "/services/artificial-intelligence/ai-poc-ai-mvp", img: "/images/services/a2.svg" },
           { name: "SaaS AI Solution", link: "/services/artificial-intelligence/saas-ai-solution", img: "/images/services/a3.svg" },
           { name: "Uee Case Chatbot Development", link: "/services/artificial-intelligence/chatbot-development", img: "/images/services/a4.svg" },
@@ -48,7 +48,7 @@ const serviceItems = [
         title: "Software",
         icon: "/images/services/software.svg",
         items: [
-          { name: "Mobile Applications", link: "/services/software", img: "/images/services/s1.svg" },
+          { name: "Mobile Applications", link: "/services/software/mobile-applications", img: "/images/services/s1.svg" },
           { name: "Web Applications", link: "/services/software/web-applications", img: "/images/services/s2.svg" },
           { name: "API & System Integration", link: "/services/software/api-system-integration", img: "/images/services/s3.svg" },
           { name: "SaaS Solution", link: "/services/software/saas-solution", img: "/images/services/s4.svg" },
@@ -67,7 +67,7 @@ const serviceItems = [
         title: "Digital Marketing",
         icon: "/images/services/dm.svg",
         items: [
-          { name: "Search Engine Optimization", link: "/services/digital-marketing", img: "/images/services/d1.svg" },
+          { name: "Search Engine Optimization", link: "/services/digital-marketing/seo", img: "/images/services/d1.svg" },
           { name: "Social Media Marketing", link: "/services/digital-marketing/smm", img: "/images/services/d2.svg" },
           { name: "Google Ads or PPC Marketing", link: "/services/digital-marketing/google-adds", img: "/images/services/d3.svg" },
           { name: "Online Reputation Management", link: "/services/digital-marketing/online-reputation", img: "/images/services/d4.svg" },
@@ -102,9 +102,9 @@ const serviceItems = [
         icon: "/images/services/hosting.svg",
         items: [
           { name: "Domain Registration", link: "/services/hosting", img: "/images/services/h1.svg" },
-          { name: "Website Hosting", link: "/services/hosting/web-hosting", img: "/images/services/h2.svg" },
-          { name: "Email Hosting", link: "/services/hosting/email-hosting", img: "/images/services/h3.svg" },
-          { name: "Security & SSL", link: "/services/hosting/security-ssl", img: "/images/services/h4.svg" },
+          { name: "Website Hosting", link: "/services/hosting", img: "/images/services/h2.svg" },
+          { name: "Email Hosting", link: "/services/hosting", img: "/images/services/h3.svg" },
+          { name: "Security & SSL", link: "/services/hosting", img: "/images/services/h4.svg" },
         ],
       },
     ],

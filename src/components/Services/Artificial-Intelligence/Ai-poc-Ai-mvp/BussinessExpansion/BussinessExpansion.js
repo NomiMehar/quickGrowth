@@ -11,7 +11,7 @@ function BussinessExpansion() {
             <div className="BussinessExpansion">
                 <div className="container">
                     <div className="title" data-aos="fade-up" data-aos-duration="1000">
-                        <h2>AI PoC and MVP Strategies to Drive  <span>Business Expansion</span></h2>
+                        <h2>AI PoC and MVP Strategies to Drive <br /> <span>Business Expansion</span></h2>
                     </div>
                     <div className="row">
                         <div className="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1000">

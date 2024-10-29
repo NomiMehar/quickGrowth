@@ -7,7 +7,7 @@ import MvpSolutions from './MvpBanner/MvpBanner'
 import ProductDev from './ProductDev/ProductDev'
 import MvpServices from './MvpServices/MvpServices'
 import MvpBenefits from './MvpBenefits/MvpBenefits'
-import TechStackMVP from '../WebApplications/ToolsTech/ToolsTech'
+import TechStackMVP from './MvpTechStack/TechStackMvp'
 import MvpRecentWork from './MvpRecentWork/MvpRecentWork'
 import MvpDevProcess from './MvpDevProcess/MvpDevProcess'
 

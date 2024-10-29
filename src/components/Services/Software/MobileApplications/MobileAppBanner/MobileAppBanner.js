@@ -25,7 +25,7 @@ return (
                     <p data-aos="fade-left" data-aos-duration="1000">
                     <Link to="/" className='home'>Home</Link>
                     <span>/</span>
-                    <Link to="/services/software" className='page'>Mobile App Development</Link>
+                    <Link to="/services/software/mobile-applications" className='page'>Mobile App Development</Link>
                     </p>
                 </div>
             </div>

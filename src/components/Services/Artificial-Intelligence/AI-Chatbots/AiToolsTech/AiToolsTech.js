@@ -77,6 +77,30 @@ const AiToolsTech = () => {
                             <img src='/images/services/ts-22.svg' alt='App Develeopment Stack' />
                         </div>
                 </div>
+                <div className='stack' data-aos="fade-up" data-aos-duration="1000">
+                        <div className='p-title'>
+                            <p>NLP & Machine Learning</p>
+                        </div>
+                        <div className='d-flex'>
+                            <img src='/images/services/tensor-icon.svg' alt='App Develeopment Stack' />
+                            <img src='/images/services/pytorch-icon.svg' alt='App Develeopment Stack' />
+                            <img src='/images/services/spacy-icon.svg' alt='App Develeopment Stack' />
+                            <img src='/images/services/scikit-icon.svg' alt='App Develeopment Stack' />
+                            <img src='/images/services/keras-icon.svg' alt='App Develeopment Stack' />
+                            <img src='/images/services/toolkit-icon.svg' alt='App Develeopment Stack' />
+                        </div>
+                </div>
+                <div className='stack' data-aos="fade-up" data-aos-duration="1000">
+                        <div className='p-title'>
+                            <p>AI Models</p>
+                        </div>
+                        <div className='d-flex'>
+                            <img src='/images/services/gpt-icon.svg' alt='App Develeopment Stack' />
+                            <img src='/images/services/llama-icon.svg' alt='App Develeopment Stack' />
+                            <img src='/images/services/stable-icon.svg' alt='App Develeopment Stack' />
+                            <img src='/images/services/gemini-icon.svg' alt='App Develeopment Stack' />
+                        </div>
+                </div>
             </div>
             
         </div>

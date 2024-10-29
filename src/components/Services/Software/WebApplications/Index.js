@@ -20,7 +20,7 @@ const Index = () => {
       <CreateWebApps />
       <ToolsTech />
       <WebProcesses />
-      <WebRecentWork />
+      <WebRecentWork head2="Our Recent" spanText="Work" />
       <Faq />
       <Footer />
     </React.Fragment>

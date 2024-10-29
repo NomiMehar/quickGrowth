@@ -43,7 +43,7 @@ const ChatbotIntegration = () => {
             <div className="ChatbotIntegration">
                 <div className="container">
                     <div className="title" data-aos="fade-up" data-aos-duration="1000">
-                        <h2>Social Media Marketing <span> Platforms</span></h2>
+                        <h2>Cross-Platform  <span> Chatbot Integration</span></h2>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="1000">
                         <div className="row justify-content-center">

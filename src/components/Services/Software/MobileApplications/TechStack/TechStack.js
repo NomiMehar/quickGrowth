@@ -3,7 +3,7 @@ import './TechStack.scss'
 import AOS from 'aos';
 
 
-const TechStack = () => {
+const TechStack = (props) => {
     useEffect(() => {
         AOS.init();
       }, [])
@@ -12,7 +12,7 @@ const TechStack = () => {
         <div className="TechStack">
             <div className="container">
                 <div className="title" data-aos="fade-up" data-aos-duration="1000">
-                    <h2>Technology Stack We Use for <span> Mobile App Development</span></h2>
+                    <h2>{props.head2} <span> {props.spanText}</span></h2>
                 </div>
                 <div className='stack' data-aos="fade-up" data-aos-duration="1000">
                         <div className='p-title'>

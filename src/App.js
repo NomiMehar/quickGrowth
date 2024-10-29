@@ -42,13 +42,13 @@ const Config = () => {
           <Route path="/services/web/copywriting" element={<Copywriting />}></Route>
           <Route path="/services/branding" element={<BrandingAgency />}></Route>
           <Route path="/services/hosting" element={<Hoisting />}></Route>
-          <Route path="/services/digital-marketing" element={<SEO />}></Route>
+          <Route path="/services/digital-marketing/seo" element={<SEO />}></Route>
           <Route path="/services/digital-marketing/smm" element={<SMM />}></Route>
-          <Route path="/services/software" element={<MobileApplications />}></Route>
+          <Route path="/services/software/mobile-applications" element={<MobileApplications />}></Route>
           <Route path="/services/software/web-applications" element={<WebApplications />}></Route>
           <Route path="/services/software/saas-solution" element={<SaasSolutions />}></Route>
           <Route path="/services/software/mvp-solution" element={<MvpSolutions />}></Route>
-          <Route path="/services/artificial-intelligence" element={<AiChatbots />}></Route>
+          <Route path="/services/artificial-intelligence/ai-chatbots" element={<AiChatbots />}></Route>
           <Route path="/services/artificial-intelligence/saas-ai-solution" element={<SaasAiSolution />}></Route>
           <Route path="/services/artificial-intelligence/ai-poc-ai-mvp" element={<AiPocAiMvp />}></Route>
         </Routes>

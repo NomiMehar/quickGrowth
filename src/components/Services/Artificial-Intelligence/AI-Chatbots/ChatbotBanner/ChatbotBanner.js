@@ -25,7 +25,7 @@ return (
                     <p data-aos="fade-left" data-aos-duration="1000">
                     <Link to="/" className='home'>Home</Link>
                     <span>/</span>
-                    <Link to="/services/artificial-intelligence" className='page'>Custom Chatbot</Link>
+                    <Link to="/services/artificial-intelligence/ai-chatbots" className='page'>Custom Chatbot</Link>
                     </p>
                 </div>
             </div>

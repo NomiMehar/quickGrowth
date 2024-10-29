@@ -31,8 +31,8 @@ function RequestQuote() {
     const handleServiceChange = (e) => {
         const { value, checked } = e.target;
         setFormData((prevData) => {
-            const services = checked 
-                ? [...prevData.services, value] 
+            const services = checked
+                ? [...prevData.services, value]
                 : prevData.services.filter((service) => service !== value);
             return { ...prevData, services };
         });
@@ -123,7 +123,7 @@ function RequestQuote() {
                 setErrors({}); // Clear errors
                 setTimeout(() => {
                     setMessage(""); // Clear message to remove alert div
-                  }, 3000); 
+                }, 3000);
             }, (err) => {
                 console.error('FAILED...', err);
                 setMessage('Failed to send your request. Please try again later.');
@@ -242,44 +242,44 @@ function RequestQuote() {
                                                 {errors.contactNumber && <div className="error">{errors.contactNumber}</div>} {/* Display contact number error */}
                                             </div>
                                         </div>
-                                         <div className="col-md-6" data-aos="fade-up" data-aos-duration="1000">
-                    <div className="form-group mt-3">
-                        <label htmlFor="preferredTime">Preferred Callback Time</label>
-                        <div className="preferred-time">
-                            <input
-                                type="time"
-                                className={`form-control ${errors.preferredTime ? 'is-invalid' : ''}`} // Add error class
-                                value={formData.preferredTime}
-                                onChange={(e) => setFormData({ ...formData, preferredTime: e.target.value })}
-                            />
-                            <div className="am-pm-buttons">
-                                <button className="active" type="button">AM</button>
-                                <button type="button">PM</button>
-                            </div>
-                            {errors.preferredTime && <div className="error">{errors.preferredTime}</div>} {/* Display preferred time error */}
-                        </div>
-                    </div>
-                </div>
+                                        <div className="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                                            <div className="form-group mt-3">
+                                                <label htmlFor="preferredTime">Preferred Callback Time</label>
+                                                <div className="preferred-time">
+                                                    <input
+                                                        type="time"
+                                                        className={`form-control ${errors.preferredTime ? 'is-invalid' : ''}`} // Add error class
+                                                        value={formData.preferredTime}
+                                                        onChange={(e) => setFormData({ ...formData, preferredTime: e.target.value })}
+                                                    />
+                                                    <div className="am-pm-buttons">
+                                                        <button className="active" type="button">AM</button>
+                                                        <button type="button">PM</button>
+                                                    </div>
+                                                    {errors.preferredTime && <div className="error">{errors.preferredTime}</div>} {/* Display preferred time error */}
+                                                </div>
+                                            </div>
+                                        </div>
 
-                <div className="col-md-12" data-aos="fade-up" data-aos-duration="1000">
-                    <div className="form-group mt-3">
-                        <label htmlFor="budget">Your Budget</label>
-                        <div className="budget-slider">
-                            <input
-                                type="range"
-                                min="0"
-                                max="10000"
-                                value={budget}
-                                onChange={handleSliderChange}
-                                style={{
-                                    background: `linear-gradient(to right, #000 ${((budget - 1000) / (10000 - 1000)) * 100}%, #dca629 ${((budget - 1000) / (10000 - 1000)) * 100}%)`
-                                }}
-                            />
-                            {errors.budget && <div className="error">{errors.budget}</div>} {/* Display budget error */}
-                        </div>
-                        <div className="budget-value">Budget: ${budget}</div>
-                    </div>
-                </div>
+                                        <div className="col-md-12" data-aos="fade-up" data-aos-duration="1000">
+                                            <div className="form-group mt-3">
+                                                <label htmlFor="budget">Your Budget</label>
+                                                <div className="budget-slider">
+                                                    <input
+                                                        type="range"
+                                                        min="0"
+                                                        max="10000"
+                                                        value={budget}
+                                                        onChange={handleSliderChange}
+                                                        style={{
+                                                            background: `linear-gradient(to right, #000 ${((budget - 1000) / (10000 - 1000)) * 100}%, #dca629 ${((budget - 1000) / (10000 - 1000)) * 100}%)`
+                                                        }}
+                                                    />
+                                                    {errors.budget && <div className="error">{errors.budget}</div>} {/* Display budget error */}
+                                                </div>
+                                                <div className="budget-value">Budget: ${budget}</div>
+                                            </div>
+                                        </div>
                                         <div className="col-md-12" data-aos="fade-up" data-aos-duration="1000">
                                             <div className="form-group mt-3">
                                                 <label htmlFor="projectDescription">Project Description <span style={{ color: '#d00014' }}>*</span></label>
@@ -296,12 +296,12 @@ function RequestQuote() {
                                         </div>
                                     </div>
                                     <button type="submit" className="btn-custom mt-3">Send Request</button>
-                                    
+
                                     {message && (
-                                    <div className="alert mb-0 mt-3" role="alert">
-                                    {message}
-                                    </div>
-                                )}
+                                        <div className="alert mb-0 mt-3" role="alert">
+                                            {message}
+                                        </div>
+                                    )}
                                 </form>
                             </div>
                         </div>
