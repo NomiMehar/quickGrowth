@@ -32,6 +32,9 @@
           font-weight: 700;
           color:#fff;
           margin-bottom: 30px;
+          @media (max-width: 1366px) {
+            font-size: 56px;
+          }
           @media (max-width: 992px) {
             font-size: 44px;
           }
@@ -52,11 +55,11 @@
       .seoServices__card{
         background: #0B0B0B;
         border-radius: 20px;
-        padding: 80px 20px 20px;
+        padding: 80px 20px 40px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         text-align: left;
         width: 100%;
-        min-height: 300px;
+        min-height: 325px;
         position: relative;
         margin-top: 100px;
         img{
@@ -67,7 +70,7 @@
             top: -70px;
         }
         h3{
-            font-size: 24px;
+            font-size: 26px;
             font-weight: 700;
             color: #fff;
             margin-bottom: 10px;

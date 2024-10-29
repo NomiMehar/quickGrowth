@@ -11,7 +11,7 @@ export default function AiSuccess() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
-                        <div className="block">
+                        <div className="block ai-success">
                             <div className="row">
                                 <div className="col-md-6 col-6 my-2 px-2" key=''>
                                     <div className="experties" data-aos="fade-up" data-aos-duration="2000">
@@ -21,20 +21,20 @@ export default function AiSuccess() {
                                 </div>
                                 <div className="col-md-6 col-6 my-2 px-2" key=''>
                                     <div className="experties" data-aos="fade-up" data-aos-duration="2000">
-                                        <h4>07+ </h4>
-                                        <p>Years of Experience</p>
+                                        <h4>35+ </h4>
+                                        <p>Team Members</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-6 my-2 px-2" key=''>
                                     <div className="experties" data-aos="fade-up" data-aos-duration="2000">
-                                        <h4>07+ </h4>
-                                        <p>Years of Experience</p>
+                                        <h4>98% </h4>
+                                        <p>Client Satisfaction</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-6 my-2 px-2" key=''>
                                     <div className="experties" data-aos="fade-up" data-aos-duration="2000">
-                                        <h4>07+ </h4>
-                                        <p>Years of Experience</p>
+                                        <h4>35+ </h4>
+                                        <p>Delivered Projects</p>
                                     </div>
                                 </div>
                             </div>
