@@ -12,15 +12,15 @@ const LeadingCompany = () => {
                     <div className="row align-items-center" data-aos="fade-up" data-aos-duration="1000">
                         <div className="col-lg-7 col-md-12">
                             <div className="title">
-                                <h2>Why Do I Need Website <span>Maintenance?</span></h2>
+                                <h2>Leading Mobile App  <span>Development Company</span></h2>
                                 <div className="line"></div>
-                                <p>Running on WordPress CMS or any other platform, your website occasionally needs updates to add new information about your products/services, upgrade the website software, theme, and plug-ins to ensure your website is secure and error-free.</p>
-                                <p>With regular website maintenance, we help keep your website healthy and error-free but also save money. Select a suitable website maintenance package so you can focus on growing your business.</p>
+                                <p>No matter how broad or complex your demands are, Quick Growth covers the full mobile app development cycle, from concept through mobile application creation. Our proficiency to satisfy your demands is based on a team of professionals with years of expertise in the global web and mobile apps solution services and product engineering sectors.</p>
+                                <p>In our work center, we have a team of over 160+ colleagues (UI/UX designers, mobile app developers, quality analysts, and marketers) who provide strategically designed and creatively made mobile application development services to help you grow your business.</p>
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-12">
                             <div className="imgBlock">
-                                <img src="/images/services/need.svg" alt="need" />
+                                <img src="/images/services/leadingApp.svg" alt="leadingApp" />
                             </div>
                         </div>
                     </div>

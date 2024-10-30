@@ -2,39 +2,20 @@ import React from 'react';
 import './AppRecentProjects.scss';
 import { Link } from 'react-router-dom';
 
-const AppRecentProjects = () => {
+const AppRecentProjects = (props) => {
 
-    const projects = [
-      {
-        title: 'Custom True Cloud for Storage Application',
-        para: 'Check how our mobile developers created a custom Airbnb for storage app solution from scratch.',
-        image: '/images/services/app-recent-1.svg',
-      },
-      {
-        title: 'Captivating Graphic Design that Tells Your Story',
-        para: 'Check how our mobile developers created a custom Airbnb for storage app solution from scratch.',
-        image: '/images/services/app-recent-2.svg',
-      },
-      {
-        title: 'Captivating Graphic Design that Tells Your Story',
-        para: 'Check how our mobile developers created a custom Airbnb for storage app solution from scratch.',
-        image: '/images/services/app-recent-3.svg',
-      },
-      
-    ];
+    
   
   
     return (
       <React.Fragment>
-        <div className="AppRecentProjects">
+        <div className={`AppRecentProjects ${props.classProps}`}>
           <div className="container">
             <div className="title" data-aos="fade-up" data-aos-duration="1000">
               <h2>Our Recent <span>Projects</span></h2>
             </div>
-  
-  
             <div className="row">
-              {projects.map((project, index) => (
+              {props.dataList.map((project, index) => (
                 <div className="col-md-4" key={index}>
                 <div
                   className="blockCards"

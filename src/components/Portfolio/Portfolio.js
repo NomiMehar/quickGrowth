@@ -9,12 +9,13 @@ import ChooseUs from './ChooseUs/ChooseUs'
 import Faqs from './Faqs/Faqs'
 import WorkWithUs from './WorkWithUs/WorkWithUs'
 import Technologies from './Technologies/Technologies'
+import MakeDifferenceList from './MakeDifferent/MakeDifferenceList.json'
 function Portfolio() {
   return (
     <React.Fragment>
         <Header />
         <PortfolioBanner />
-        <MakeDifferent />
+        <MakeDifferent classProps="makeDifferent" title={["What Makes us ",<span>Different</span>]} dataList={MakeDifferenceList} />
         <Achievements />
         <LatestProject />
         <ChooseUs />

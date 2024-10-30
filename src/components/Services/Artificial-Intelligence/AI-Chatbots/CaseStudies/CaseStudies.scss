@@ -5,6 +5,9 @@
     @media screen and (max-width: 768px){
         padding: 40px 0 60px;
     }
+    &.bg-dark{
+        background-color: #c72b2b;
+    }
     .title{
         margin-bottom: -60px;
         h2{
