@@ -7,13 +7,14 @@ import MvpSolutions from '../../../CustomBanner/CustomBanner'
 import ProductDev from '../../../CustomExpertTalk/CustomExpertTalk'
 import MvpServices from '../../Branding/BrandingServices/BrandingServices'
 import MvpBenefits from '../SaasSolutions/SaasIndustries/SaasIndustries'
-import TechStackMVP from './MvpTechStack/TechStackMvp'
+import TechStackMVP from '../MobileApplications/TechStack/TechStack'
 import MvpRecentWork from '../../Web/ecommerce-development/EcommerceWork/EcommerceWork'
 import MvpDevProcess from '../../Web/website-design-development/WebsiteProcess/WebsiteProcess'
 import MvpServicesList from '../../Branding/BrandingServices/MvpServicesList.json'
 import MvpBenefitsList from '../SaasSolutions/SaasIndustries/mvpBenefitsList.json'
 import EcommerceWorkList from '../../Web/ecommerce-development/EcommerceWork/EcommerceWorkList.json'
 import WebsiteProcessList from '../../Web/website-design-development/WebsiteProcess/WebsiteProcessList.json'
+import MvpTechStackList from '../MobileApplications/TechStack/MvpTechStackList.json'
 const Index = () => {
   return (
     <React.Fragment>
@@ -25,7 +26,7 @@ const Index = () => {
         <Achievements />
         <MvpServices  title={["Tailored MVP Software Development ", <span>Services</span>]}  dataList={MvpServicesList}/>
         <MvpBenefits classProps="mvpbenefits" title={["Key Benefits of MVP " , <span>Development</span> ]}  dataList={MvpBenefitsList}/>
-        <TechStackMVP />
+        <TechStackMVP title={["Technologies That We Have Mastered for MVP  ", <span>Software Development</span>]} dataList={MvpTechStackList}/>
         <MvpRecentWork classProps="MvpRecentWork" title={["Our  Recent ", <span> Work</span>]}  dataList={EcommerceWorkList} />
         <MvpDevProcess  classProps="MvpDevProcess" title={["Our MVP Development ",<span>Process</span>]} dataList={WebsiteProcessList}/>
         <Faq />

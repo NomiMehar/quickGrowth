@@ -15,7 +15,7 @@ import SaasDevServicesList from '../../../CustomFeatures/SaasDevServicesList.jso
 import SaasBenefitsList from '../../../CustomFeatures/SaasBenefitsList.json'
 import SaasIndustriesList from './SaasIndustries/SaasIndustriesList.json'
 import AppRecentProjectsList from '../MobileApplications/AppRecentProjects/RecentProjectsList.json'
-
+import SaasTechStackList from '../MobileApplications/TechStack/TechStackList.json'
 const Index = () => {
   return (
     <React.Fragment>
@@ -27,7 +27,7 @@ const Index = () => {
         <Achievements />
         <SaasDevServices classProps="seoServices" title={["Our SaaS Development  " ,<span>Services</span>]}  dataList={SaasDevServicesList}/>
         <SaasIndustries title={["Industries " , <span>We Serve</span> ]} dataList={SaasIndustriesList}/>
-        <TechStack head2="Technology Stack We Use for" spanText="Mobile App Development"/>
+        <TechStack title={["Technology Stack We Use for ", <br/> ,<span>SaaS Solution Development</span>]} dataList={SaasTechStackList} />
         <SaasBenefits classProps="SaasBenefits" title={["Core Benefits of Developing SaaS  " ,<span>Applications</span>]}  dataList={SaasBenefitsList}/>
         <SaasRecent classProps="SaasRecent" dataList={AppRecentProjectsList}/>
         <SaasDevProcess />

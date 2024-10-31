@@ -11,6 +11,7 @@ import AppRecentProjects from './AppRecentProjects/AppRecentProjects'
 import Faq from '../../../Portfolio/Faqs/Faqs'
 import AppRecentProjectsList from './AppRecentProjects/RecentProjectsList.json'
 import MobileServicesList from '../../DigitalMarketing/seo/platforms/MobileServicesList.json'
+import TechStackList from './TechStack/TechStackList.json';
 
 const MobileApplications = () => {
   return (
@@ -22,7 +23,7 @@ const MobileApplications = () => {
       <QuickFacts />
       <MobileServices classProps="MobileServices" title={["Mobile App Development  ", <span>Services</span>]} dataList={MobileServicesList}/>
       <BusinessSolutions />
-      <TechStack head2="Technology Stack We Use for" spanText="SaaS Solution Development"/>
+      <TechStack title={["Technology Stack We Use for ",<br/>, <span>Mobile Application Development</span>]} dataList={TechStackList}/>
       <AppRecentProjects classProps="AppRecentProjects" dataList={AppRecentProjectsList}/>
       <Faq />
       <Footer />

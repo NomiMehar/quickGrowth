@@ -10,7 +10,7 @@ const TechStackMvp = () => {
         <div className="TechStack">
             <div className="container">
                 <div className="title" data-aos="fade-up" data-aos-duration="1000">
-                    <h2>Technologies That We Have Mastered for MVP  <span> Software Development</span></h2>
+                    <h2> <span> </span></h2>
                 </div>
                 <div className='stack' data-aos="fade-up" data-aos-duration="1000">
                         <div className='p-title'>

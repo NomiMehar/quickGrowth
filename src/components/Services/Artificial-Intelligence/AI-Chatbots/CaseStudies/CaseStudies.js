@@ -7,14 +7,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Autoplay, Navigation } from 'swiper/modules';
 
-const CaseStudies = (props) => {
+const CaseStudies = () => {
     useEffect(() => {
         AOS.init();
     }, [])
 
     return (
         <React.Fragment>
-            <div className={`CaseStudies ${props.classProps}`}>
+            <div className="CaseStudies" >
                 <div class="container">
                     <div class="row">
                         <div className="title" data-aos="fade-up" data-aos-duration="1000">

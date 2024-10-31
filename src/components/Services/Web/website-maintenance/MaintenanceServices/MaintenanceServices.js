@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import AOS from 'aos';
 import './MaintenanceServices.scss';
 
-function MaintenanceServices() {
+function MaintenanceServices(props) {
   const videoRef = useRef(null); // Reference to control the video element
   const [isPlaying, setIsPlaying] = useState(false); // State to track video playback
 
@@ -24,11 +24,11 @@ function MaintenanceServices() {
           <div className="title">
             <div className="row">
               <div className="col-md-6" data-aos="fade-right" data-aos-duration="1000">
-                <h2>Website <span>Maintenance Services</span></h2>
-                <p>Professional & Affordable Website Maintenance Services</p>
+                <h2>{props.title}</h2>
+                <p>{props.description}</p>
               </div>
               <div className="col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                <p>Whether your website runs on WordPress or any other CMS, we keep you worry-free with regular content, security and website software updates, and backups. Secure peace of mind with our website maintenance services in Canada</p>
+                <p>{props.sideDetails}</p>
               </div>
             </div>
           </div>
@@ -43,9 +43,9 @@ function MaintenanceServices() {
             loop
             muted
             className={isPlaying ? 'video playing' : 'video'} // Add class based on isPlaying
-            poster='/images/services/maintaienceVideo.svg'
+            poster={props.posterImg}
           >
-            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+            <source src={props.videoLink} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           {!isPlaying && (
