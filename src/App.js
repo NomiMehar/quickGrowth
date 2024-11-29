@@ -1,7 +1,7 @@
 import React, { lazy, Suspense,useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./components/AboutUs/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ContactUs from "./components/ContactUs/ContactUs";
@@ -31,26 +31,26 @@ const Config = () => {
     <Router>
       <Suspense>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about-us" element={<AboutUs />}></Route>
-          <Route path="/portfolio" element={<Portfolio />}></Route>
-          <Route path="/contact-us" element={<ContactUs />}></Route>
-          <Route path="/faqs" element={<Faqs />}></Route>
-          <Route path="/services/web/website-design-development" element={<WebsiteDesignDevelopment />}></Route>
-          <Route path="/services/web/ecommerce-development" element={<EcommerceDevelopment />}></Route>
-          <Route path="/services/web/website-maintenance" element={<WebMaintenance />}></Route>
-          <Route path="/services/web/copywriting" element={<Copywriting />}></Route>
-          <Route path="/services/branding" element={<BrandingAgency />}></Route>
-          <Route path="/services/hosting" element={<Hoisting />}></Route>
-          <Route path="/services/digital-marketing/seo" element={<SEO />}></Route>
-          <Route path="/services/digital-marketing/smm" element={<SMM />}></Route>
-          <Route path="/services/software/mobile-applications" element={<MobileApplications />}></Route>
-          <Route path="/services/software/web-applications" element={<WebApplications />}></Route>
-          <Route path="/services/software/saas-solution" element={<SaasSolutions />}></Route>
-          <Route path="/services/software/mvp-solution" element={<MvpSolutions />}></Route>
-          <Route path="/services/artificial-intelligence/ai-chatbots" element={<AiChatbots />}></Route>
-          <Route path="/services/artificial-intelligence/saas-ai-solution" element={<SaasAiSolution />}></Route>
-          <Route path="/services/artificial-intelligence/ai-poc-ai-mvp" element={<AiPocAiMvp />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/faqs" element={<Faqs />} />
+          <Route path="/services/web/website-design-development" element={<WebsiteDesignDevelopment />} />
+          <Route path="/services/web/ecommerce-development" element={<EcommerceDevelopment />} />
+          <Route path="/services/web/website-maintenance" element={<WebMaintenance />} />
+          <Route path="/services/web/copywriting" element={<Copywriting />} />
+          <Route path="/services/branding" element={<BrandingAgency />} />
+          <Route path="/services/hosting" element={<Hoisting />} />
+          <Route path="/services/digital-marketing/seo" element={<SEO />} />
+          <Route path="/services/digital-marketing/smm" element={<SMM />} />
+          <Route path="/services/software/mobile-applications" element={<MobileApplications />} />
+          <Route path="/services/software/web-applications" element={<WebApplications />} />
+          <Route path="/services/software/saas-solution" element={<SaasSolutions />} />
+          <Route path="/services/software/mvp-solution" element={<MvpSolutions />} />
+          <Route path="/services/artificial-intelligence/ai-chatbots" element={<AiChatbots />} />
+          <Route path="/services/artificial-intelligence/saas-ai-solution" element={<SaasAiSolution />} />
+          <Route path="/services/artificial-intelligence/ai-poc-ai-mvp" element={<AiPocAiMvp />} />
         </Routes>
       </Suspense>
     </Router>
