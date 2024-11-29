@@ -1,7 +1,7 @@
 import React, { lazy, Suspense,useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./components/AboutUs/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ContactUs from "./components/ContactUs/ContactUs";
