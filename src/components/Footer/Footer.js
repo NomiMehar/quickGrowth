@@ -46,8 +46,8 @@ function Footer() {
                                     <li><Link to="/services/web/website-design-development">Web Development</Link></li>
                                     <li><Link to="">Software Development</Link></li>
                                     <li><Link to="/services/digital-marketing/seo">Digital Marketing</Link></li>
-                                    <li><Link to="/services/branding/branding-agency">Branding</Link></li>
-                                    <li><Link to="/services/hosting/domain-registeration">Hosting</Link></li>
+                                    <li><Link to="/services/branding">Branding</Link></li>
+                                    <li><Link to="/services/hosting">Hosting</Link></li>
                                 </ul>
                             </div>
                         </div>

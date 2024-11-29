@@ -7,35 +7,55 @@ function LatestProject() {
   // Define the projects array
   const projects = [
     {
-      title: 'Host Guru AI',
-      image: '/images/portfolio/project1.svg',
+      title: 'Charism',
+      image: '/images/portfolio/port-1.svg',
       category: 'Artificial Intelligence',
     },
     {
-      title: 'Web Development Project',
-      image: '/images/portfolio/project2.svg',
+      title: 'Web Portfolio Mockup',
+      image: '/images/portfolio/port-2.svg',
       category: 'Web',
     },
     {
-      title: 'Software Development Project',
-      image: '/images/portfolio/project3.svg',
-      category: 'Software',
+      title: 'Pilsia',
+      image: '/images/portfolio/port-4.svg',
+      category: 'Artificial Intelligence',
     },
     {
-      title: 'Digital Marketing Campaign',
-      image: '/images/portfolio/project4.svg',
+      title: 'Regalbot',
+      image: '/images/portfolio/port-3.svg',
       category: 'Digital Marketing',
     },
     {
-      title: 'Branding Design Project',
-      image: '/images/portfolio/project5.svg',
+      title: 'Prospective Solutions',
+      image: '/images/portfolio/port-5.svg',
       category: 'Branding',
     },
     {
-      title: 'Hosting Solution',
-      image: '/images/portfolio/project6.svg',
+      title: 'Intelliaire',
+      image: '/images/portfolio/port-6.svg',
       category: 'Hosting',
     },
+    {
+      title: 'Sprouce Cloud',
+      image: '/images/portfolio/port-7.svg',
+      category: 'Software',
+    },
+    {
+      title: 'Facility Trax',
+      image: '/images/portfolio/port-8.svg',
+      category: 'Digital Marketing',
+    },
+    {
+      title: 'VI Cross',
+      image: '/images/portfolio/port-9.svg',
+      category: 'Branding',
+    },
+    {
+      title: 'Follow me',
+      image: '/images/portfolio/port-10.svg',
+      category: 'Hosting',
+    }
   ];
 
   // Filter the projects based on the active tab

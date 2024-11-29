@@ -5,39 +5,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import { Link } from 'react-router-dom';
-function EcommerceWork() {
+function EcommerceWork(props) {
   useEffect(() => {
     AOS.init();
   }, []);
 
-  const slideData = [
-    {
-        imageSrc: '/images/services/work1.svg'
-    },
-    {
-        imageSrc: '/images/services/work2.svg'
-    },
-    {
-        imageSrc: '/images/services/work3.svg'
-    },
-    {
-      imageSrc: '/images/services/work1.svg'
-    },
-    {
-      imageSrc: '/images/services/work2.svg'
-    },
-    {
-      imageSrc: '/images/services/work3.svg'
-    },
-]
   return (
     <React.Fragment>
-        <div className="ecommerceWork">
+        <div className={`ecommerceWork ${props.classProps}`}>
             <div className="container">
                 <div className="title" data-aos="fade-up" data-aos-duration="1000">
-                    <h2>Explore Our Most Recent
-                    <span> Ecommerce Work</span></h2>
-                    <p>All of our eCommerce websites are created in-house, by our software engineers. Take a look at our portfolio below where you’ll find examples of work completed for many industries.</p>
+                    <h2>{props.title}</h2>
+                    <p>{props.description}</p>
                 </div>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000">
@@ -70,7 +49,7 @@ function EcommerceWork() {
                             }
                             }}
                         >
-                            {slideData.map((item, index) => (
+                            {props.dataList.map((item, index) => (
                                 <SwiperSlide key={index} className="swiper-slide">
                                     <img src={item.imageSrc} alt="Ecommercework" />
                                 </SwiperSlide>

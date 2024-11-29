@@ -7,61 +7,19 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination,Autoplay,Navigation } from 'swiper/modules';
 import { Link } from 'react-router-dom';
-function WebsiteProcess() {
+function WebsiteProcess(props) {
     useEffect(() => {
         AOS.init();
     }, [])
-    const slideData = [
-        {
-            title: 'Understand',
-            imageSrc: '/images/home/process1.svg',
-        },
-        {
-            title: 'Devliver',
-            imageSrc: '/images/home/process2.svg',
-        },
-        {
-            title: 'Design',
-            imageSrc: '/images/home/process3.svg',
-        },
-        {
-            title: 'Development',
-            imageSrc: '/images/home/process4.svg',
-        },
-        {
-            title: 'Engage',
-            imageSrc: '/images/home/process5.svg',
-        },
-        {
-            title: 'Understand',
-            imageSrc: '/images/home/process1.svg',
-        },
-        {
-            title: 'Content',
-            imageSrc: '/images/home/process2.svg',
-        },
-        {
-            title: '25 Listing',
-            imageSrc: '/images/home/process3.svg',
-        },
-        {
-            title: 'Innovate',
-            imageSrc: '/images/home/process4.svg',
-        },
-        {
-            title: 'Engage',
-            imageSrc: '/images/home/process5.svg',
-        },
-    ]
+   
 
     return (
         <React.Fragment>
-            <div className="websiteProcess">
+            <div className={`websiteProcess ${props.classProps}`}>
                 <div class="container">
                     <div class="row">
                         <div className="title" data-aos="fade-up" data-aos-duration="1000">
-                            <h2>Website Development
-                            <span>Process</span></h2>
+                            <h2>{props.title}</h2>
                         </div>
                         
                     </div>
@@ -98,7 +56,7 @@ function WebsiteProcess() {
                             }
                             }}
                         >
-                            {slideData.map((item, index) => (
+                            {props.dataList.map((item, index) => (
                                 <SwiperSlide key={index} className="swiper-slide">
                                         <div className="image-wrapper">
                                             <img src={item.imageSrc} alt={item.title} />

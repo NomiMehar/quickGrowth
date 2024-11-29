@@ -10,7 +10,7 @@ const menuData = [
       {
         label: "Artificial Intelligence",
         subMenu: [
-          { label: "Custom Chatbot", href: "/services/artificial-intelligence/custom-chatbot" },
+          { label: "Custom Chatbot", href: "/services/artificial-intelligence/ai-chatbots" },
           { label: "AI Poc / AI MVP", href: "/services/artificial-intelligence/ai-poc-ai-mvp" },
           { label: "SaaS AI Solution", href: "/services/artificial-intelligence/saas-ai-solution" },
           { label: "Use Case Chatbot Development", href: "/services/artificial-intelligence/chatbot-development" },
@@ -49,19 +49,19 @@ const menuData = [
       {
         label: "Branding",
         subMenu: [
-          { label: "Brand Identity", href: "/services/branding/branding-agency" },
-          { label: "Logo Design", href: "/services/branding/logo-design" },
-          { label: "Printing Materials", href: "/services/branding/printing-material" },
-          { label: "Brand Launch", href: "/services/branding/brand-launch" },
+          { label: "Brand Identity", href: "/services/branding" },
+          { label: "Logo Design", href: "/services/branding" },
+          { label: "Printing Materials", href: "/services/branding" },
+          { label: "Brand Launch", href: "/services/branding" },
         ],
       },
       {
         label: "Hosting",
         subMenu: [
-          { label: "Domain Registration", href: "/services/hosting/domain-registeration" },
-          { label: "Website Hosting", href: "/services/hosting/web-hosting" },
-          { label: "Email Hosting", href: "/services/hosting/email-hosting" },
-          { label: "Security & SSL", href: "/services/hosting/security-ssl" },
+          { label: "Domain Registration", href: "/services/hosting" },
+          { label: "Website Hosting", href: "/services/hosting" },
+          { label: "Email Hosting", href: "/services/hosting" },
+          { label: "Security & SSL", href: "/services/hosting" },
         ],
       },
     ],
