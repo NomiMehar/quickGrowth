@@ -9,6 +9,7 @@ import WhyQuickGrowth from './WhyQuickGrowth/WhyQuickGrowth'
 import RequestQuote from './RequestQuote/RequestQuote'
 import OurProcess from './OurProcess/OurProcess'
 import ClientSays from './ClientSays/ClientSays'
+import OurTeams from './OurTeams/OurTeams'
 import OurProcessList from './OurProcessList.json'
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <OurProcess title="Our Process" description="Our company is guided by a foundation of four core principles" dataList={OurProcessList}/>
       <WhyQuickGrowth />
       <ClientSays />
+      <OurTeams />
       <RequestQuote />
       <Footer />
     </React.Fragment>
