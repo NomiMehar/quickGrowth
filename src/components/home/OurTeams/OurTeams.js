@@ -1,11 +1,6 @@
-import React, { useRef, useEffect } from 'react';
+import React, {useEffect } from 'react';
 import './OurTeams.scss';
 import AOS from 'aos';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/navigation';
-import { Navigation, Autoplay } from 'swiper/modules';
 
 function OurTeams() {
     useEffect(() => {
@@ -18,7 +13,7 @@ function OurTeams() {
                 <div className="container">
                     <div className="row">
                         <div className="title" data-aos="fade-up" data-aos-duration="1000">
-                            <h2>Our <span>Teams</span></h2>
+                            <h2>Our <span>Team</span></h2>
                         </div>
 
 
@@ -29,11 +24,11 @@ function OurTeams() {
                                         <div class="flip-card-front">
                                             <img src="/images/our-team-1.jpeg" alt="Avatar" />
                                             <div className="flip-bottom-box">
-                                                <h3>Coddi Legge</h3>
+                                                <h3>Coddy Legge</h3>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
-                                            <h2 className="slide-name">Codi Legge</h2>
+                                            <h2 className="slide-name">Cody Legge</h2>
                                             <p className="slide-description">"Let's connect and talk! I am the business owner of <span>Nexus Division Entertainment Inc</span>, & <span>QuickGrowth.ai</span>. As a seasoned Marketing and Business Development Specialist, I specialize in guiding startups through their growth journey. With a proven track record of managing multiple clients simultaneously, I excel in creating bespoke marketing and business development strategies that cater to diverse budgetary needs. My expertise lies in comprehensive market research, digital marketing, sales strategies, and operational planning, all aimed at establishing a solid market presence and ensuring long-term success for our clients."</p>
                                         </div>
                                     </div>
