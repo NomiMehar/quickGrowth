@@ -24,7 +24,7 @@ function OurTeams() {
                                         <div class="flip-card-front">
                                             <img src="/images/our-team-1.jpeg" alt="Avatar" />
                                             <div className="flip-bottom-box">
-                                                <h3>Coddy Legge</h3>
+                                                <h3>Cody Legge</h3>
                                             </div>
                                         </div>
                                         <div class="flip-card-back">
